@@ -1,0 +1,37 @@
+{
+  "name": "marketnow",
+  "displayName": "MarketNow — Trust Layer for AI Agents",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Free trust layer for AI agents on MCP: verify Agent Trust Cards (ATC/1.0), run domain scam-checks (WHOIS age + TLS certificate inspection), fingerprint tool definitions against OWASP tool poisoning, and search a 68k+ verified MCP server registry.",
+  "author": {
+    "name": "AliceLabs LLC",
+    "email": "info@alicelabs.site"
+  },
+  "homepage": "https://www.marketnow.site",
+  "repository": "https://github.com/eddyflores100-lang/marketnow-cursor-plugin",
+  "license": "(MIT OR Apache-2.0)",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mcp",
+    "security",
+    "trust",
+    "verification",
+    "agent-trust-card",
+    "owasp",
+    "scam-detection",
+    "mcp-registry",
+    "tool-poisoning"
+  ],
+  "category": "integrations",
+  "tags": [
+    "mcp",
+    "security",
+    "trust",
+    "verification",
+    "agents"
+  ],
+  "mcpServers": "./mcp.json"
+}
